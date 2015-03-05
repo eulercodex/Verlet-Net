@@ -44,7 +44,6 @@
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		884552271AA684100034062B /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 884552201AA684100034062B /* MainScene.m */; };
 		884552281AA684100034062B /* VPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 884552221AA684100034062B /* VPoint.m */; };
-		884552291AA684100034062B /* VRope.m in Sources */ = {isa = PBXBuildFile; fileRef = 884552241AA684100034062B /* VRope.m */; };
 		8845522A1AA684100034062B /* VStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 884552261AA684100034062B /* VStick.m */; };
 		884552301AA6850A0034062B /* rope.png in Resources */ = {isa = PBXBuildFile; fileRef = 8845522F1AA6850A0034062B /* rope.png */; };
 		884552331AA6B2970034062B /* VNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 884552321AA6B2970034062B /* VNet.m */; };
@@ -179,8 +178,6 @@
 		884552201AA684100034062B /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
 		884552211AA684100034062B /* VPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPoint.h; sourceTree = "<group>"; };
 		884552221AA684100034062B /* VPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPoint.m; sourceTree = "<group>"; };
-		884552231AA684100034062B /* VRope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRope.h; sourceTree = "<group>"; };
-		884552241AA684100034062B /* VRope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRope.m; sourceTree = "<group>"; };
 		884552251AA684100034062B /* VStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VStick.h; sourceTree = "<group>"; };
 		884552261AA684100034062B /* VStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VStick.m; sourceTree = "<group>"; };
 		8845522F1AA6850A0034062B /* rope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rope.png; sourceTree = "<group>"; };
@@ -452,8 +449,6 @@
 				884552201AA684100034062B /* MainScene.m */,
 				884552211AA684100034062B /* VPoint.h */,
 				884552221AA684100034062B /* VPoint.m */,
-				884552231AA684100034062B /* VRope.h */,
-				884552241AA684100034062B /* VRope.m */,
 				884552311AA6B2970034062B /* VNet.h */,
 				884552321AA6B2970034062B /* VNet.m */,
 				884552251AA684100034062B /* VStick.h */,
@@ -836,7 +831,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884552291AA684100034062B /* VRope.m in Sources */,
 				884552331AA6B2970034062B /* VNet.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				884552271AA684100034062B /* MainScene.m in Sources */,
